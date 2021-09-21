@@ -1,0 +1,197 @@
+ .wrapper {
+    background: white;
+    color: rgb(53, 255, 105);;
+    padding: 1em;
+  } 
+  body {
+    background: rgb(15, 17, 8);
+    color: rgb(53, 255, 105);
+    margin: 0.5em;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  article {
+    width: 900px;
+    margin: auto;
+  }
+
+  h1,h2,h3,h4,h5,h6 {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0.5em;
+    font-weight: normal;
+    line-height: 2;
+    text-indent: 1.5em;
+  }
+  .select {
+    font-weight: 600; /* Жирное начертание */
+  }
+  .select2 {
+    border-bottom: 2px solid rgb(26, 151, 57); /* Параметры линии под текстом */
+    padding-bottom: 1px; /* Расстояние от текста до линии */
+  }
+  .select3{
+    font-style: italic;
+  }
+
+
+  p { text-indent: 1.5em; line-height: 2;}
+
+   
+  h1 { font-size: 210%;}
+  h2 { font-size: 180%;}
+  h3 { font-size: 150%;}
+  h4 { font-size: 125%;}
+  h5 { font-size: 110%;}
+  h6 { font-size: 100%;}
+
+  img {
+    width:600px; /* you can use % */
+    height: auto;
+    filter: hue-rotate(120deg);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .ImW2{
+    width: 300px;
+    margin-left:0%;
+  }
+  .ImW3{
+    width: 400px;
+  }
+  .border {
+    border: 3px solid #d9ece4;
+  }
+
+  blockquote {
+    margin: 0;
+    color: rgb(79, 168, 103);
+    padding: 30px 30px 30px 60px;
+    border-left: 8px solid rgb(53, 225, 105);
+    position: relative;
+    background: rgb(20, 43, 21);
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+  }
+  blockquote:before{
+    content: "\201C";
+    font-family: Arial;
+    color: rgb(53, 225, 105);
+    font-size: 70px;
+    position: absolute;
+    left: 15px;
+    top: 5px;
+  }
+  blockquote p {
+    font-style: italic;
+    font-size: 24px;
+    margin-top: 0;  
+  }
+
+  sup {
+    vertical-align: super;
+    font-size: smaller;
+  } 
+
+  a:link {
+    color: rgb(178, 197, 114);
+    border-bottom: 1px dashed; 
+  }
+  a:visited {
+    color: rgb(28, 160, 160);
+  }
+  a:hover {
+    color: rgb(28, 19, 150);
+    border-bottom: .07em solid;
+  }
+  a:active {
+    color: #497DDD; 
+    border-bottom: 1px dashed;
+  }
+
+  caption {
+    caption-side: top;
+    text-align: right;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+
+  table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    border-collapse: separate;
+    text-align: center;
+    empty-cells: hide;
+  }
+  th, td:first-child {
+    background: rgb(79, 168, 103);
+    color: white;
+    padding: 10px 20px;
+  }
+  th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+  }
+  td {
+    background: rgb(52, 83, 53);
+    }
+    th:first-child, td:first-child {
+    text-align: left;
+  }
+
+
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .form-inner {
+    padding: 50px;
+}
+  .form-inner input, .form-inner textarea {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: #E9EFF6;
+    line-height: 40px;
+    border-width: 0;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+  .form-inner input[type="submit"] {
+    margin-top: 30px;
+    background: rgb(20, 48, 31);
+    border-bottom: 4px solid rgb(20, 43, 21);
+    color: #E9EFF6;
+    font-size: 14px;
+  }
+  .form-inner textarea {
+    resize: none;
+  }
+  .form-inner h3 {
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: rgb(53, 255, 105);
+  }
+
+  .pretty_ul {
+    list-style: none;
+  }
+
+  .pretty_ul li::before {
+    color: rgb(143, 218, 22);
+    content:"•";
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+
+
+
+  
